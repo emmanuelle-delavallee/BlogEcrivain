@@ -1,0 +1,114 @@
+html,
+body {
+  height: 100%;
+}
+
+#essai {
+  margin-top: 16%;
+}
+
+#home-card {
+  max-height: 110px;
+}
+
+.card {
+  margin: 0.5rem 2rem 1rem 0;
+}
+
+.iris {
+  background-image: url("../img/posts/AlaskaBook.jpg");
+  background-repeat: no-repeat;
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#iris-txt {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#iris-subtitle {
+  padding-top: 1vh;
+  font-size: 1.5em;
+}
+
+#iris-txt-2 {
+  top: 60vh;
+}
+
+.home-cards {
+  opacity: 0.7;
+}
+
+#biography {
+  margin-top: 50px;
+}
+
+#biography-img {
+  max-height: 100vh;
+}
+
+.books-txt {
+  font-size: 0.85em;
+}
+
+#excerpt-read {
+  margin: 20px 0 20px 0;
+}
+
+#home-title-new-chapters {
+  max-width: 700px;
+}
+
+.sidenav-background {
+  max-height: 20vh;
+}
+
+.parallax-container {
+  width: 100%;
+}
+
+/*Media queries : laptop-s*/
+@media screen and (max-width: 1024) {
+  #topbar-subtitle {
+    font-size: 0.5em;
+  }
+}
+
+/*Media queries : tablettes*/
+@media screen and (max-width: 768px) {
+  #biography-img-container {
+    max-height: auto;
+    max-width: 30vh;
+    margin: auto;
+  }
+
+  #biography-img {
+    max-height: 50vh;
+    width: auto;
+  }
+}
+
+/*Media queries : mobiles*/
+@media screen and (max-width: 425px) {
+  #topbar-title {
+    font-size: 1.5em;
+  }
+
+  #iris-title-1 {
+    font-size: 3em;
+  }
+
+  #iris-title-2 {
+    font-size: 2em;
+  }
+
+  #dashboard-title {
+    font-size: 2.2em;
+  }
+
+  #dashboard-subtitle {
+    font-size: 1.5em;
+  }
+}
